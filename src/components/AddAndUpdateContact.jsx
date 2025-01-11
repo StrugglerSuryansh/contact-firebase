@@ -60,14 +60,14 @@ const AddAndUpdateContact = ({ isOpen, onClose, isUpdate, contact }) => {
                         <div className="flex flex-col gap-1">
                             <label htmlFor="name">Name</label>
                             <Field name="name" className="h-10 border" />
-                            <div className=" text-xs text-red-500">
+                            <div className="text-xs text-red-500 ">
                                 <ErrorMessage name="name" />
                             </div>
                         </div>
                         <div className="flex flex-col gap-1">
                             <label htmlFor="email">Email</label>
                             <Field name="email" className="h-10 border" />
-                            <div className=" text-xs text-red-500">
+                            <div className="text-xs text-red-500 ">
                                 <ErrorMessage name="email" />
                             </div>
                         </div>
